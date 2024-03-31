@@ -7,25 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0E97FB2B9F7042005862A3 /* IdentityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E97FA2B9F7042005862A3 /* IdentityScreen.swift */; };
+		2F0E97FD2B9F77CA005862A3 /* VoteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E97FC2B9F77CA005862A3 /* VoteScreen.swift */; };
+		2F0E97FF2B9F77DA005862A3 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E97FE2B9F77DA005862A3 /* VoteViewController.swift */; };
+		2F0E98012B9F77E6005862A3 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E98002B9F77E6005862A3 /* ConfirmViewController.swift */; };
+		2F0E98032B9F77F8005862A3 /* ConfirmScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E98022B9F77F8005862A3 /* ConfirmScreen.swift */; };
+		2F34FEED2BB5EED8009249D3 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F34FEEC2BB5EED8009249D3 /* AlertUtil.swift */; };
+		2F6DCF602BB8538E00D3783D /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DCF5F2BB8538E00D3783D /* SuccessViewController.swift */; };
+		2F6DCF652BB853FB00D3783D /* SuccessScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DCF642BB853FB00D3783D /* SuccessScreen.swift */; };
+		2F71E7A92B9F31C50059C9E0 /* VoteSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71E7A82B9F31C50059C9E0 /* VoteSteps.swift */; };
+		2F71E7AB2B9F31D70059C9E0 /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F71E7AA2B9F31D70059C9E0 /* IdentityViewController.swift */; };
+		2F7399432BAB4E8C00F2C8A4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7399422BAB4E8C00F2C8A4 /* Constants.swift */; };
+		2F73994E2BAB69DA00F2C8A4 /* CandidateDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73994D2BAB69DA00F2C8A4 /* CandidateDetailScreen.swift */; };
+		2F7399502BAB69EA00F2C8A4 /* CandidateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73994F2BAB69EA00F2C8A4 /* CandidateDetailViewController.swift */; };
+		2F7399532BB5CEBF00F2C8A4 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7399522BB5CEBF00F2C8A4 /* RegistrationViewController.swift */; };
+		2F7399552BB5CED200F2C8A4 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7399542BB5CED200F2C8A4 /* RegistrationScreen.swift */; };
 		2F896C1D2B9B3A94000DDD7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C1C2B9B3A94000DDD7C /* AppDelegate.swift */; };
 		2F896C1F2B9B3A94000DDD7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C1E2B9B3A94000DDD7C /* SceneDelegate.swift */; };
 		2F896C212B9B3A94000DDD7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C202B9B3A94000DDD7C /* ViewController.swift */; };
-		2F896C242B9B3A94000DDD7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F896C222B9B3A94000DDD7C /* Main.storyboard */; };
-		2F896C272B9B3A94000DDD7C /* eUpravaGlasaj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C252B9B3A94000DDD7C /* eUpravaGlasaj.xcdatamodeld */; };
 		2F896C292B9B3A96000DDD7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F896C282B9B3A96000DDD7C /* Assets.xcassets */; };
-		2F896C2C2B9B3A96000DDD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F896C2A2B9B3A96000DDD7C /* LaunchScreen.storyboard */; };
+		2F896C342B9B3B5B000DDD7C /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C332B9B3B5B000DDD7C /* WelcomeScreen.swift */; };
+		2F896C362B9B3B8C000DDD7C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C352B9B3B8C000DDD7C /* WelcomeViewController.swift */; };
+		2F896C3D2B9B400F000DDD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F896C3C2B9B400F000DDD7C /* LaunchScreen.storyboard */; };
+		2F896C3F2B9B4018000DDD7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F896C3E2B9B4018000DDD7C /* Main.storyboard */; };
+		2FD5EC322BA755A300C73CF8 /* CandidateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5EC312BA755A300C73CF8 /* CandidateModel.swift */; };
+		2FD5EC342BA755E800C73CF8 /* CandidateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5EC332BA755E800C73CF8 /* CandidateTableViewCell.swift */; };
+		31080C8CE5B2EB3DCF01289C /* Pods_eUpravaGlasaj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26890D16D0628543C0D85A05 /* Pods_eUpravaGlasaj.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26890D16D0628543C0D85A05 /* Pods_eUpravaGlasaj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eUpravaGlasaj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0E97FA2B9F7042005862A3 /* IdentityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityScreen.swift; sourceTree = "<group>"; };
+		2F0E97FC2B9F77CA005862A3 /* VoteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteScreen.swift; sourceTree = "<group>"; };
+		2F0E97FE2B9F77DA005862A3 /* VoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
+		2F0E98002B9F77E6005862A3 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		2F0E98022B9F77F8005862A3 /* ConfirmScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmScreen.swift; sourceTree = "<group>"; };
+		2F34FEEC2BB5EED8009249D3 /* AlertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
+		2F6DCF5F2BB8538E00D3783D /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		2F6DCF642BB853FB00D3783D /* SuccessScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessScreen.swift; sourceTree = "<group>"; };
+		2F71E7A82B9F31C50059C9E0 /* VoteSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteSteps.swift; sourceTree = "<group>"; };
+		2F71E7AA2B9F31D70059C9E0 /* IdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
+		2F7399422BAB4E8C00F2C8A4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2F73994D2BAB69DA00F2C8A4 /* CandidateDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateDetailScreen.swift; sourceTree = "<group>"; };
+		2F73994F2BAB69EA00F2C8A4 /* CandidateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateDetailViewController.swift; sourceTree = "<group>"; };
+		2F7399522BB5CEBF00F2C8A4 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2F7399542BB5CED200F2C8A4 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 		2F896C192B9B3A94000DDD7C /* eUpravaGlasaj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eUpravaGlasaj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F896C1C2B9B3A94000DDD7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F896C1E2B9B3A94000DDD7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2F896C202B9B3A94000DDD7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2F896C232B9B3A94000DDD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F896C262B9B3A94000DDD7C /* eUpravaGlasaj.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eUpravaGlasaj.xcdatamodel; sourceTree = "<group>"; };
 		2F896C282B9B3A96000DDD7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2F896C2B2B9B3A96000DDD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F896C2D2B9B3A96000DDD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F896C332B9B3B5B000DDD7C /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		2F896C352B9B3B8C000DDD7C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2F896C3C2B9B400F000DDD7C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F896C3E2B9B4018000DDD7C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2FD5EC312BA755A300C73CF8 /* CandidateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateModel.swift; sourceTree = "<group>"; };
+		2FD5EC332BA755E800C73CF8 /* CandidateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateTableViewCell.swift; sourceTree = "<group>"; };
+		72FD2C4662BDD4A4218995CB /* Pods-eUpravaGlasaj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eUpravaGlasaj.debug.xcconfig"; path = "Target Support Files/Pods-eUpravaGlasaj/Pods-eUpravaGlasaj.debug.xcconfig"; sourceTree = "<group>"; };
+		968B69C4B71F42BD0D9AB273 /* Pods-eUpravaGlasaj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eUpravaGlasaj.release.xcconfig"; path = "Target Support Files/Pods-eUpravaGlasaj/Pods-eUpravaGlasaj.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +73,118 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31080C8CE5B2EB3DCF01289C /* Pods_eUpravaGlasaj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F6DCF632BB853DA00D3783D /* SuccessScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F6DCF5F2BB8538E00D3783D /* SuccessViewController.swift */,
+				2F6DCF642BB853FB00D3783D /* SuccessScreen.swift */,
+			);
+			path = SuccessScreen;
+			sourceTree = "<group>";
+		};
+		2F7399452BAB673400F2C8A4 /* Suporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2F896C282B9B3A96000DDD7C /* Assets.xcassets */,
+				2F7399462BAB673E00F2C8A4 /* Base */,
+			);
+			path = "Suporting files";
+			sourceTree = "<group>";
+		};
+		2F7399462BAB673E00F2C8A4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2F896C1E2B9B3A94000DDD7C /* SceneDelegate.swift */,
+				2F896C1C2B9B3A94000DDD7C /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2F7399472BAB676B00F2C8A4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2F7399422BAB4E8C00F2C8A4 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2F7399482BAB677F00F2C8A4 /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F896C332B9B3B5B000DDD7C /* WelcomeScreen.swift */,
+				2F896C352B9B3B8C000DDD7C /* WelcomeViewController.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		2F7399492BAB679200F2C8A4 /* IdentityScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F71E7AA2B9F31D70059C9E0 /* IdentityViewController.swift */,
+				2F0E97FA2B9F7042005862A3 /* IdentityScreen.swift */,
+			);
+			path = IdentityScreen;
+			sourceTree = "<group>";
+		};
+		2F73994A2BAB67AF00F2C8A4 /* ConfirmScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F0E98002B9F77E6005862A3 /* ConfirmViewController.swift */,
+				2F0E98022B9F77F8005862A3 /* ConfirmScreen.swift */,
+			);
+			path = ConfirmScreen;
+			sourceTree = "<group>";
+		};
+		2F73994B2BAB67CA00F2C8A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5EC312BA755A300C73CF8 /* CandidateModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F73994C2BAB67E500F2C8A4 /* VoteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F0E97FC2B9F77CA005862A3 /* VoteScreen.swift */,
+				2FD5EC332BA755E800C73CF8 /* CandidateTableViewCell.swift */,
+				2F0E97FE2B9F77DA005862A3 /* VoteViewController.swift */,
+			);
+			path = VoteScreen;
+			sourceTree = "<group>";
+		};
+		2F7399512BAB69F000F2C8A4 /* CandidateDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F73994D2BAB69DA00F2C8A4 /* CandidateDetailScreen.swift */,
+				2F73994F2BAB69EA00F2C8A4 /* CandidateDetailViewController.swift */,
+			);
+			path = CandidateDetailScreen;
+			sourceTree = "<group>";
+		};
+		2F7399562BB5CED700F2C8A4 /* RegistrationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2F7399522BB5CEBF00F2C8A4 /* RegistrationViewController.swift */,
+				2F7399542BB5CED200F2C8A4 /* RegistrationScreen.swift */,
+			);
+			path = RegistrationScreen;
+			sourceTree = "<group>";
+		};
 		2F896C102B9B3A94000DDD7C = {
 			isa = PBXGroup;
 			children = (
 				2F896C1B2B9B3A94000DDD7C /* eUpravaGlasaj */,
 				2F896C1A2B9B3A94000DDD7C /* Products */,
+				42630A0C3D84D97C0AC7D496 /* Pods */,
+				CEBA56B0C73436038484117C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +199,41 @@
 		2F896C1B2B9B3A94000DDD7C /* eUpravaGlasaj */ = {
 			isa = PBXGroup;
 			children = (
-				2F896C1C2B9B3A94000DDD7C /* AppDelegate.swift */,
-				2F896C1E2B9B3A94000DDD7C /* SceneDelegate.swift */,
 				2F896C202B9B3A94000DDD7C /* ViewController.swift */,
-				2F896C222B9B3A94000DDD7C /* Main.storyboard */,
-				2F896C282B9B3A96000DDD7C /* Assets.xcassets */,
-				2F896C2A2B9B3A96000DDD7C /* LaunchScreen.storyboard */,
+				2F7399452BAB673400F2C8A4 /* Suporting files */,
 				2F896C2D2B9B3A96000DDD7C /* Info.plist */,
-				2F896C252B9B3A94000DDD7C /* eUpravaGlasaj.xcdatamodeld */,
+				2F7399482BAB677F00F2C8A4 /* WelcomeScreen */,
+				2F896C3C2B9B400F000DDD7C /* LaunchScreen.storyboard */,
+				2F896C3E2B9B4018000DDD7C /* Main.storyboard */,
+				2F71E7A82B9F31C50059C9E0 /* VoteSteps.swift */,
+				2F7399492BAB679200F2C8A4 /* IdentityScreen */,
+				2F73994C2BAB67E500F2C8A4 /* VoteScreen */,
+				2F73994A2BAB67AF00F2C8A4 /* ConfirmScreen */,
+				2F73994B2BAB67CA00F2C8A4 /* Models */,
+				2F7399472BAB676B00F2C8A4 /* Helpers */,
+				2F7399512BAB69F000F2C8A4 /* CandidateDetailScreen */,
+				2F7399562BB5CED700F2C8A4 /* RegistrationScreen */,
+				2F34FEEC2BB5EED8009249D3 /* AlertUtil.swift */,
+				2F6DCF632BB853DA00D3783D /* SuccessScreen */,
 			);
 			path = eUpravaGlasaj;
+			sourceTree = "<group>";
+		};
+		42630A0C3D84D97C0AC7D496 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72FD2C4662BDD4A4218995CB /* Pods-eUpravaGlasaj.debug.xcconfig */,
+				968B69C4B71F42BD0D9AB273 /* Pods-eUpravaGlasaj.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEBA56B0C73436038484117C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26890D16D0628543C0D85A05 /* Pods_eUpravaGlasaj.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F896C302B9B3A96000DDD7C /* Build configuration list for PBXNativeTarget "eUpravaGlasaj" */;
 			buildPhases = (
+				14F00FA7160E20EB3FB77A82 /* [CP] Check Pods Manifest.lock */,
 				2F896C152B9B3A94000DDD7C /* Sources */,
 				2F896C162B9B3A94000DDD7C /* Frameworks */,
 				2F896C172B9B3A94000DDD7C /* Resources */,
+				40734F80BD9B348481B26F42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,46 +296,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F896C2C2B9B3A96000DDD7C /* LaunchScreen.storyboard in Resources */,
+				2F896C3F2B9B4018000DDD7C /* Main.storyboard in Resources */,
 				2F896C292B9B3A96000DDD7C /* Assets.xcassets in Resources */,
-				2F896C242B9B3A94000DDD7C /* Main.storyboard in Resources */,
+				2F896C3D2B9B400F000DDD7C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14F00FA7160E20EB3FB77A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eUpravaGlasaj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40734F80BD9B348481B26F42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eUpravaGlasaj/Pods-eUpravaGlasaj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eUpravaGlasaj/Pods-eUpravaGlasaj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eUpravaGlasaj/Pods-eUpravaGlasaj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F896C152B9B3A94000DDD7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F896C272B9B3A94000DDD7C /* eUpravaGlasaj.xcdatamodeld in Sources */,
+				2F0E98032B9F77F8005862A3 /* ConfirmScreen.swift in Sources */,
+				2F6DCF602BB8538E00D3783D /* SuccessViewController.swift in Sources */,
+				2F0E98012B9F77E6005862A3 /* ConfirmViewController.swift in Sources */,
 				2F896C212B9B3A94000DDD7C /* ViewController.swift in Sources */,
+				2FD5EC322BA755A300C73CF8 /* CandidateModel.swift in Sources */,
+				2F0E97FB2B9F7042005862A3 /* IdentityScreen.swift in Sources */,
+				2F7399432BAB4E8C00F2C8A4 /* Constants.swift in Sources */,
+				2F73994E2BAB69DA00F2C8A4 /* CandidateDetailScreen.swift in Sources */,
+				2F0E97FF2B9F77DA005862A3 /* VoteViewController.swift in Sources */,
+				2F34FEED2BB5EED8009249D3 /* AlertUtil.swift in Sources */,
+				2F896C342B9B3B5B000DDD7C /* WelcomeScreen.swift in Sources */,
+				2F896C362B9B3B8C000DDD7C /* WelcomeViewController.swift in Sources */,
+				2F71E7A92B9F31C50059C9E0 /* VoteSteps.swift in Sources */,
+				2F7399502BAB69EA00F2C8A4 /* CandidateDetailViewController.swift in Sources */,
+				2F7399532BB5CEBF00F2C8A4 /* RegistrationViewController.swift in Sources */,
+				2F7399552BB5CED200F2C8A4 /* RegistrationScreen.swift in Sources */,
 				2F896C1D2B9B3A94000DDD7C /* AppDelegate.swift in Sources */,
 				2F896C1F2B9B3A94000DDD7C /* SceneDelegate.swift in Sources */,
+				2F0E97FD2B9F77CA005862A3 /* VoteScreen.swift in Sources */,
+				2F6DCF652BB853FB00D3783D /* SuccessScreen.swift in Sources */,
+				2F71E7AB2B9F31D70059C9E0 /* IdentityViewController.swift in Sources */,
+				2FD5EC342BA755E800C73CF8 /* CandidateTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2F896C222B9B3A94000DDD7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F896C232B9B3A94000DDD7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2F896C2A2B9B3A96000DDD7C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F896C2B2B9B3A96000DDD7C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2F896C2E2B9B3A96000DDD7C /* Debug */ = {
@@ -286,6 +495,7 @@
 		};
 		2F896C312B9B3A96000DDD7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FD2C4662BDD4A4218995CB /* Pods-eUpravaGlasaj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +524,7 @@
 		};
 		2F896C322B9B3A96000DDD7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968B69C4B71F42BD0D9AB273 /* Pods-eUpravaGlasaj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,19 +573,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2F896C252B9B3A94000DDD7C /* eUpravaGlasaj.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2F896C262B9B3A94000DDD7C /* eUpravaGlasaj.xcdatamodel */,
-			);
-			currentVersion = 2F896C262B9B3A94000DDD7C /* eUpravaGlasaj.xcdatamodel */;
-			path = eUpravaGlasaj.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2F896C112B9B3A94000DDD7C /* Project object */;
 }
