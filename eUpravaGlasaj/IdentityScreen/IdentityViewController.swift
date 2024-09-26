@@ -1,16 +1,12 @@
-//
-//  IdentityViewController.swift
-//  eUpravaGlasaj
-//
-//  Created by Sandra Melovic on 11.3.24..
-//
-
 import UIKit
 import Parse
 
 class IdentityViewController: UIViewController {
     
     internal let identityView = IdentityScreen()
+    
+    private var keyboardHandler: KeyboardHandler?
+    var blockchain = Blockchain() // Ensure blockchain instance is created
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +16,8 @@ class IdentityViewController: UIViewController {
         let backButton = identityView.voteSteps?.backButton
         let step1 = identityView.voteSteps?.step1
         let logoutButton = identityView.voteSteps?.logoutButton
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
         
         step1?.backgroundColor = UIColor(hex: 0x085b9e)
         
@@ -31,6 +29,7 @@ class IdentityViewController: UIViewController {
         
         logoutButton?.isHidden = true
         
+        keyboardHandler = KeyboardHandler(view: self.view)
         
     }
     
@@ -54,10 +53,19 @@ class IdentityViewController: UIViewController {
         PFUser.logInWithUsername(inBackground: self.identityView.usernameLoginTextField.text!, password: self.identityView.passwordLoginTextField.text!) {
             (user: PFUser?, error: Error?) -> Void in
             if user != nil {
-
-                if UserDefaults.standard.string(forKey: (user?.username)!) != nil {
-                    let successViewController = SuccessViewController()
-                    self.navigationController?.pushViewController(successViewController, animated: true)
+                if let role = user?["role"] as? String, role == "admin" {
+                    let adminViewController = AdminViewController()
+                    self.navigationController?.pushViewController(adminViewController, animated: true)
+                } else if let vote = user?["vote"] as? String, !vote.isEmpty {
+                    // Find and display vote from blockchain
+                    if let username = user?.username {
+                        let voteDetails = self.findVoteInBlockchain(username: username)
+                        let successViewController = SuccessViewController()
+//                        successViewController.voteDetails = voteDetails // Pass vote details to success view controller
+                        self.navigationController?.pushViewController(successViewController, animated: true)
+                    } else {
+                        print("Username not found.")
+                    }
                 } else {
                     let voteViewController = VoteViewController()
                     self.navigationController?.pushViewController(voteViewController, animated: true)
@@ -72,4 +80,19 @@ class IdentityViewController: UIViewController {
         
     }
     
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+    
+    // Function to find vote in blockchain based on username
+    private func findVoteInBlockchain(username: String) -> String {
+        for block in blockchain.chain {
+            for transaction in block.transactions {
+                if transaction.starts(with: "\(username):") {
+                    return transaction
+                }
+            }
+        }
+        return "Vote not found in blockchain"
+    }
 }

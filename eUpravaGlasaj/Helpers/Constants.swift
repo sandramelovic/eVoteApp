@@ -10,4 +10,6 @@ import UIKit
 
 class Constants {
     public static let candidateTableViewCell = "candidateTableViewCell"
+    public static let adminTableViewCell = "adminTableViewCell"
+
 }

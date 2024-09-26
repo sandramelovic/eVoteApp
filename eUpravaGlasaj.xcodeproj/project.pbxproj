@@ -22,6 +22,9 @@
 		2F7399502BAB69EA00F2C8A4 /* CandidateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73994F2BAB69EA00F2C8A4 /* CandidateDetailViewController.swift */; };
 		2F7399532BB5CEBF00F2C8A4 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7399522BB5CEBF00F2C8A4 /* RegistrationViewController.swift */; };
 		2F7399552BB5CED200F2C8A4 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7399542BB5CED200F2C8A4 /* RegistrationScreen.swift */; };
+		2F8121512C64E1D600338378 /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = 2F8121502C64E1D600338378 /* web3swift */; };
+		2F8121532C6A036C00338378 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8121522C6A036C00338378 /* Block.swift */; };
+		2F8121552C6A037600338378 /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8121542C6A037600338378 /* Blockchain.swift */; };
 		2F896C1D2B9B3A94000DDD7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C1C2B9B3A94000DDD7C /* AppDelegate.swift */; };
 		2F896C1F2B9B3A94000DDD7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C1E2B9B3A94000DDD7C /* SceneDelegate.swift */; };
 		2F896C212B9B3A94000DDD7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C202B9B3A94000DDD7C /* ViewController.swift */; };
@@ -30,8 +33,13 @@
 		2F896C362B9B3B8C000DDD7C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F896C352B9B3B8C000DDD7C /* WelcomeViewController.swift */; };
 		2F896C3D2B9B400F000DDD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F896C3C2B9B400F000DDD7C /* LaunchScreen.storyboard */; };
 		2F896C3F2B9B4018000DDD7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F896C3E2B9B4018000DDD7C /* Main.storyboard */; };
+		2FAD19832C3FAA1700916106 /* JMBGCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD19822C3FAA1700916106 /* JMBGCheck.swift */; };
+		2FAD19852C3FD9E600916106 /* AdminScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD19842C3FD9E600916106 /* AdminScreen.swift */; };
+		2FAD19872C3FD9FB00916106 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD19862C3FD9FB00916106 /* AdminViewController.swift */; };
+		2FAD198A2C3FDB9E00916106 /* AdminTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAD19892C3FDB9E00916106 /* AdminTableViewCell.swift */; };
 		2FD5EC322BA755A300C73CF8 /* CandidateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5EC312BA755A300C73CF8 /* CandidateModel.swift */; };
 		2FD5EC342BA755E800C73CF8 /* CandidateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5EC332BA755E800C73CF8 /* CandidateTableViewCell.swift */; };
+		2FF73C322C47D7CF00CE0B45 /* KeyboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF73C312C47D7CF00CE0B45 /* KeyboardHandler.swift */; };
 		31080C8CE5B2EB3DCF01289C /* Pods_eUpravaGlasaj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26890D16D0628543C0D85A05 /* Pods_eUpravaGlasaj.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +60,9 @@
 		2F73994F2BAB69EA00F2C8A4 /* CandidateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateDetailViewController.swift; sourceTree = "<group>"; };
 		2F7399522BB5CEBF00F2C8A4 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		2F7399542BB5CED200F2C8A4 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
-		2F896C192B9B3A94000DDD7C /* eUpravaGlasaj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eUpravaGlasaj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8121522C6A036C00338378 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		2F8121542C6A037600338378 /* Blockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blockchain.swift; sourceTree = "<group>"; };
+		2F896C192B9B3A94000DDD7C /* еГлас.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "еГлас.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F896C1C2B9B3A94000DDD7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F896C1E2B9B3A94000DDD7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2F896C202B9B3A94000DDD7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,8 +72,13 @@
 		2F896C352B9B3B8C000DDD7C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		2F896C3C2B9B400F000DDD7C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F896C3E2B9B4018000DDD7C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2FAD19822C3FAA1700916106 /* JMBGCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMBGCheck.swift; sourceTree = "<group>"; };
+		2FAD19842C3FD9E600916106 /* AdminScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminScreen.swift; sourceTree = "<group>"; };
+		2FAD19862C3FD9FB00916106 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		2FAD19892C3FDB9E00916106 /* AdminTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminTableViewCell.swift; sourceTree = "<group>"; };
 		2FD5EC312BA755A300C73CF8 /* CandidateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateModel.swift; sourceTree = "<group>"; };
 		2FD5EC332BA755E800C73CF8 /* CandidateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateTableViewCell.swift; sourceTree = "<group>"; };
+		2FF73C312C47D7CF00CE0B45 /* KeyboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHandler.swift; sourceTree = "<group>"; };
 		72FD2C4662BDD4A4218995CB /* Pods-eUpravaGlasaj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eUpravaGlasaj.debug.xcconfig"; path = "Target Support Files/Pods-eUpravaGlasaj/Pods-eUpravaGlasaj.debug.xcconfig"; sourceTree = "<group>"; };
 		968B69C4B71F42BD0D9AB273 /* Pods-eUpravaGlasaj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eUpravaGlasaj.release.xcconfig"; path = "Target Support Files/Pods-eUpravaGlasaj/Pods-eUpravaGlasaj.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +89,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31080C8CE5B2EB3DCF01289C /* Pods_eUpravaGlasaj.framework in Frameworks */,
+				2F8121512C64E1D600338378 /* web3swift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +126,10 @@
 		2F7399472BAB676B00F2C8A4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				2F71E7A82B9F31C50059C9E0 /* VoteSteps.swift */,
+				2F34FEEC2BB5EED8009249D3 /* AlertUtil.swift */,
 				2F7399422BAB4E8C00F2C8A4 /* Constants.swift */,
+				2FF73C312C47D7CF00CE0B45 /* KeyboardHandler.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -146,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				2FD5EC312BA755A300C73CF8 /* CandidateModel.swift */,
+				2F8121522C6A036C00338378 /* Block.swift */,
+				2F8121542C6A037600338378 /* Blockchain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +195,7 @@
 			children = (
 				2F7399522BB5CEBF00F2C8A4 /* RegistrationViewController.swift */,
 				2F7399542BB5CED200F2C8A4 /* RegistrationScreen.swift */,
+				2FAD19822C3FAA1700916106 /* JMBGCheck.swift */,
 			);
 			path = RegistrationScreen;
 			sourceTree = "<group>";
@@ -191,7 +213,7 @@
 		2F896C1A2B9B3A94000DDD7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F896C192B9B3A94000DDD7C /* eUpravaGlasaj.app */,
+				2F896C192B9B3A94000DDD7C /* еГлас.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,7 +227,6 @@
 				2F7399482BAB677F00F2C8A4 /* WelcomeScreen */,
 				2F896C3C2B9B400F000DDD7C /* LaunchScreen.storyboard */,
 				2F896C3E2B9B4018000DDD7C /* Main.storyboard */,
-				2F71E7A82B9F31C50059C9E0 /* VoteSteps.swift */,
 				2F7399492BAB679200F2C8A4 /* IdentityScreen */,
 				2F73994C2BAB67E500F2C8A4 /* VoteScreen */,
 				2F73994A2BAB67AF00F2C8A4 /* ConfirmScreen */,
@@ -213,10 +234,20 @@
 				2F7399472BAB676B00F2C8A4 /* Helpers */,
 				2F7399512BAB69F000F2C8A4 /* CandidateDetailScreen */,
 				2F7399562BB5CED700F2C8A4 /* RegistrationScreen */,
-				2F34FEEC2BB5EED8009249D3 /* AlertUtil.swift */,
 				2F6DCF632BB853DA00D3783D /* SuccessScreen */,
+				2FAD19882C3FDA0200916106 /* AdminScreen */,
 			);
 			path = eUpravaGlasaj;
+			sourceTree = "<group>";
+		};
+		2FAD19882C3FDA0200916106 /* AdminScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2FAD19842C3FD9E600916106 /* AdminScreen.swift */,
+				2FAD19862C3FD9FB00916106 /* AdminViewController.swift */,
+				2FAD19892C3FDB9E00916106 /* AdminTableViewCell.swift */,
+			);
+			path = AdminScreen;
 			sourceTree = "<group>";
 		};
 		42630A0C3D84D97C0AC7D496 /* Pods */ = {
@@ -254,8 +285,11 @@
 			dependencies = (
 			);
 			name = eUpravaGlasaj;
+			packageProductDependencies = (
+				2F8121502C64E1D600338378 /* web3swift */,
+			);
 			productName = eUpravaGlasaj;
-			productReference = 2F896C192B9B3A94000DDD7C /* eUpravaGlasaj.app */;
+			productReference = 2F896C192B9B3A94000DDD7C /* еГлас.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -282,6 +316,9 @@
 				Base,
 			);
 			mainGroup = 2F896C102B9B3A94000DDD7C;
+			packageReferences = (
+				2F81214F2C64E1D600338378 /* XCRemoteSwiftPackageReference "web3swift" */,
+			);
 			productRefGroup = 2F896C1A2B9B3A94000DDD7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -352,8 +389,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0E98032B9F77F8005862A3 /* ConfirmScreen.swift in Sources */,
+				2F8121532C6A036C00338378 /* Block.swift in Sources */,
 				2F6DCF602BB8538E00D3783D /* SuccessViewController.swift in Sources */,
 				2F0E98012B9F77E6005862A3 /* ConfirmViewController.swift in Sources */,
+				2FF73C322C47D7CF00CE0B45 /* KeyboardHandler.swift in Sources */,
+				2FAD198A2C3FDB9E00916106 /* AdminTableViewCell.swift in Sources */,
 				2F896C212B9B3A94000DDD7C /* ViewController.swift in Sources */,
 				2FD5EC322BA755A300C73CF8 /* CandidateModel.swift in Sources */,
 				2F0E97FB2B9F7042005862A3 /* IdentityScreen.swift in Sources */,
@@ -364,15 +404,19 @@
 				2F896C342B9B3B5B000DDD7C /* WelcomeScreen.swift in Sources */,
 				2F896C362B9B3B8C000DDD7C /* WelcomeViewController.swift in Sources */,
 				2F71E7A92B9F31C50059C9E0 /* VoteSteps.swift in Sources */,
+				2FAD19852C3FD9E600916106 /* AdminScreen.swift in Sources */,
 				2F7399502BAB69EA00F2C8A4 /* CandidateDetailViewController.swift in Sources */,
 				2F7399532BB5CEBF00F2C8A4 /* RegistrationViewController.swift in Sources */,
 				2F7399552BB5CED200F2C8A4 /* RegistrationScreen.swift in Sources */,
 				2F896C1D2B9B3A94000DDD7C /* AppDelegate.swift in Sources */,
 				2F896C1F2B9B3A94000DDD7C /* SceneDelegate.swift in Sources */,
+				2F8121552C6A037600338378 /* Blockchain.swift in Sources */,
 				2F0E97FD2B9F77CA005862A3 /* VoteScreen.swift in Sources */,
 				2F6DCF652BB853FB00D3783D /* SuccessScreen.swift in Sources */,
 				2F71E7AB2B9F31D70059C9E0 /* IdentityViewController.swift in Sources */,
 				2FD5EC342BA755E800C73CF8 /* CandidateTableViewCell.swift in Sources */,
+				2FAD19872C3FD9FB00916106 /* AdminViewController.swift in Sources */,
+				2FAD19832C3FAA1700916106 /* JMBGCheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +559,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandram.eUpravaGlasaj;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "еГлас";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,7 +588,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandram.eUpravaGlasaj;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "еГлас";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -573,6 +617,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F81214F2C64E1D600338378 /* XCRemoteSwiftPackageReference "web3swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/web3swift-team/web3swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F8121502C64E1D600338378 /* web3swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F81214F2C64E1D600338378 /* XCRemoteSwiftPackageReference "web3swift" */;
+			productName = web3swift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F896C112B9B3A94000DDD7C /* Project object */;
 }
